@@ -2,8 +2,6 @@
  * SocSecException Class is a custom class that extends the class Exception.
  * It will print an error message when thrown from SocSecProcessor Class
  * 
- * @author: Justin S.
- * @version: 1
  */
 
 public class SocSecException extends Exception {
@@ -14,7 +12,7 @@ public class SocSecException extends Exception {
         
         super(error);
         this.error = error;
-    }
+    }  
 
     public String toString() {
         return "Invalid Social Security number, " + error;

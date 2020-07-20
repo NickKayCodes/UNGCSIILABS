@@ -6,8 +6,6 @@ import java.util.Scanner;
  * thrown with corresponding error message.
  * 
  * 
- * @author Justin S.
- * @version 13.37
  * 
  */
 public class SocSecProcessor {
